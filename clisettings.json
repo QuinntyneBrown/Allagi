@@ -34,6 +34,13 @@
   "entities": [],
   "resources": [
     {
+      "properties": [],
+      "entities": [],
+      "name": "User",
+      "idPropertyName": "UserId",
+      "idPropertyType": "Guid"
+    },
+    {
       "properties": [
         {
           "accessModifier": "public",
@@ -48,7 +55,7 @@
               "type": 1
             }
           ],
-          "name": "UserId",
+          "name": "RoleId",
           "required": true,
           "key": true
         },
@@ -65,31 +72,14 @@
               "type": 1
             }
           ],
-          "name": "Username",
-          "required": true,
-          "key": false
-        },
-        {
-          "accessModifier": "public",
-          "type": "string",
-          "accessors": [
-            {
-              "accessModifier": null,
-              "type": 0
-            },
-            {
-              "accessModifier": "private",
-              "type": 1
-            }
-          ],
-          "name": "Password",
+          "name": "Name",
           "required": true,
           "key": false
         }
       ],
       "entities": [],
-      "name": "User",
-      "idPropertyName": "UserId",
+      "name": "Role",
+      "idPropertyName": "RoleId",
       "idPropertyType": "Guid"
     }
   ]

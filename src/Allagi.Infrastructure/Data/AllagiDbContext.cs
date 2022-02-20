@@ -9,6 +9,7 @@ namespace Allagi.Infrastructure.Data
     public class AllagiDbContext: DbContext, IAllagiDbContext
     {
         public DbSet<User> Users { get; private set; }
+        public DbSet<Role> Roles { get; private set; }
         public AllagiDbContext(DbContextOptions options)
             :base(options) { }
 
