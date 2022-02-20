@@ -1,0 +1,96 @@
+{
+  "isRoot": true,
+  "endpointType": 0,
+  "minimal": false,
+  "prefix": "app",
+  "idFormat": 0,
+  "idDotNetType": 0,
+  "isMicroserviceArchitecture": false,
+  "projects": [],
+  "rootDirectory": "C:\\projects\\Allagi",
+  "solutionName": "Allagi",
+  "solutionFileName": "Allagi.sln",
+  "apiFullPath": "C:\\projects\\Allagi\\src\\Allagi.Api\\Allagi.Api.csproj",
+  "rootNamespace": "Allagi",
+  "domainNamespace": "Allagi.Core",
+  "applicationNamespace": "Allagi.Core",
+  "infrastructureNamespace": "Allagi.Infrastructure",
+  "apiNamespace": "Allagi.Api",
+  "domainDirectory": "C:\\projects\\Allagi\\src\\Allagi.SharedKernel",
+  "applicationDirectory": "C:\\projects\\Allagi\\src\\Allagi.Core",
+  "infrastructureDirectory": "C:\\projects\\Allagi\\src\\Allagi.Infrastructure",
+  "apiDirectory": "C:\\projects\\Allagi\\src\\Allagi.Api",
+  "unitTestsDirectory": "C:\\projects\\Allagi\\tests\\Allagi.UnitTests",
+  "testingDirectory": "C:\\projects\\Allagi\\tests\\Allagi.Testing",
+  "appDirectories": [],
+  "buildingBlocksCoreNamespace": "BuildingBlocks.Core",
+  "buildingBlocksEventStoreNamespace": "BuildingBlocks.EventStore",
+  "sourceFolder": "src",
+  "testFolder": "tests",
+  "dbContextName": "AllagiDbContext",
+  "port": 5000,
+  "sslPort": 5001,
+  "plugins": null,
+  "entities": [],
+  "resources": [
+    {
+      "properties": [
+        {
+          "accessModifier": "public",
+          "type": "Guid",
+          "accessors": [
+            {
+              "accessModifier": null,
+              "type": 0
+            },
+            {
+              "accessModifier": "private",
+              "type": 1
+            }
+          ],
+          "name": "UserId",
+          "required": true,
+          "key": true
+        },
+        {
+          "accessModifier": "public",
+          "type": "string",
+          "accessors": [
+            {
+              "accessModifier": null,
+              "type": 0
+            },
+            {
+              "accessModifier": "private",
+              "type": 1
+            }
+          ],
+          "name": "Username",
+          "required": true,
+          "key": false
+        },
+        {
+          "accessModifier": "public",
+          "type": "string",
+          "accessors": [
+            {
+              "accessModifier": null,
+              "type": 0
+            },
+            {
+              "accessModifier": "private",
+              "type": 1
+            }
+          ],
+          "name": "Password",
+          "required": true,
+          "key": false
+        }
+      ],
+      "entities": [],
+      "name": "User",
+      "idPropertyName": "UserId",
+      "idPropertyType": "Guid"
+    }
+  ]
+}
