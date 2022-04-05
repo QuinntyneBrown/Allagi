@@ -22,7 +22,9 @@
   "apiDirectory": "C:\\projects\\Allagi\\src\\Allagi.Api",
   "unitTestsDirectory": "C:\\projects\\Allagi\\tests\\Allagi.UnitTests",
   "testingDirectory": "C:\\projects\\Allagi\\tests\\Allagi.Testing",
-  "appDirectories": [],
+  "appDirectories": [
+    "C:\\projects\\Allagi\\src\\Allagi.App"
+  ],
   "buildingBlocksCoreNamespace": "BuildingBlocks.Core",
   "buildingBlocksEventStoreNamespace": "BuildingBlocks.EventStore",
   "sourceFolder": "src",
@@ -41,6 +43,13 @@
       "idPropertyType": "Guid"
     },
     {
+      "properties": [],
+      "entities": [],
+      "name": "Role",
+      "idPropertyName": "RoleId",
+      "idPropertyType": "Guid"
+    },
+    {
       "properties": [
         {
           "accessModifier": "public",
@@ -55,9 +64,26 @@
               "type": 1
             }
           ],
-          "name": "RoleId",
+          "name": "ContentId",
           "required": true,
           "key": true
+        },
+        {
+          "accessModifier": "public",
+          "type": "JObject",
+          "accessors": [
+            {
+              "accessModifier": null,
+              "type": 0
+            },
+            {
+              "accessModifier": "private",
+              "type": 1
+            }
+          ],
+          "name": "Content",
+          "required": true,
+          "key": false
         },
         {
           "accessModifier": "public",
@@ -78,8 +104,8 @@
         }
       ],
       "entities": [],
-      "name": "Role",
-      "idPropertyName": "RoleId",
+      "name": "Content",
+      "idPropertyName": "ContentId",
       "idPropertyType": "Guid"
     }
   ]

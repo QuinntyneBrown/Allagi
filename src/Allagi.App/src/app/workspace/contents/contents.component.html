@@ -1,0 +1,4 @@
+<div appListDetail *ngIf="vm$ | async as vm">
+  <app-content-list [contents]="vm.contents" [selected]="vm.selected" (delete)="onDelete($event)" (select)="onSelect($event)" (create)="onCreate()"></app-content-list>
+  <app-content-detail [content]="vm.selected" (save)="onSave($event)"></app-content-detail>
+</div>

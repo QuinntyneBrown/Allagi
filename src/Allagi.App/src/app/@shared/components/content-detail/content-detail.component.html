@@ -1,0 +1,16 @@
+<h1 *ngIf="!content.contentId" class="app-panel-heading">Create Content</h1>
+<h1 *ngIf="content.contentId" class="app-panel-heading">Edit Content</h1>
+
+
+<form [formGroup]="form" class="app-form">
+  <div class="app-field">
+    <label class="app-label">Name</label>
+    <input type="text" formControlName="name" autocomplete="off" class="app-input">
+  </div>
+</form>
+
+<div class="app-actions">
+  <button class="app-button" (click)="save.emit(form.value)" [disabled]="!form.valid || form.pristine">
+    Save
+  </button>
+</div>

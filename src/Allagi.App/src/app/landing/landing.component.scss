@@ -1,0 +1,53 @@
+@use 'src/scss/breakpoints';
+
+.landing__logo-container {
+    height: 82px; 
+    width: 206px; 
+    background-image: url('/assets/allagi_logo_with_text.svg'); 
+    background-position: -78px -146px; margin: 0 auto;
+    display: block;
+    margin: 0 auto 40px;
+}
+
+h1, h2 {
+    font-family: "Open Sans", "Helvetica Neue", "Segoe UI", Helvetica, Arial;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+
+h2 {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.landing__content-container {
+    margin-bottom: 60px;
+}
+
+.landing__contact-us__container {
+    text-align: center;
+}
+
+.landing__contact-us__label {
+    font-weight: 800;
+    padding: 0 5px 0 0;
+}
+
+@media screen and (min-width: breakpoints.$screen-sm) { 
+
+}
+
+@media screen and (min-width: breakpoints.$screen-md) { 
+
+}
+
+@media screen and (min-width: breakpoints.$screen-lg) { 
+
+}
+
+@media screen and (min-width: breakpoints.$screen-md) { 
+
+}

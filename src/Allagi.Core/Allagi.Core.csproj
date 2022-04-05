@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="10.3.6" />
+    <PackageReference Include="Innofactor.EfCoreJsonValueConverter" Version="6.0.0" />
     <PackageReference Include="StronglyTypedId" Version="1.0.0-beta05" />
   </ItemGroup>
 

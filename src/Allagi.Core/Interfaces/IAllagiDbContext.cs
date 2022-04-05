@@ -8,6 +8,7 @@ namespace Allagi.Core.Interfaces
     {
         DbSet<User> Users { get; }
         DbSet<Role> Roles { get; }
+        DbSet<Content> Contents { get; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
         
     }
