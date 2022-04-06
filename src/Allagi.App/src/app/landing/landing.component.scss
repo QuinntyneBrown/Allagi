@@ -1,10 +1,10 @@
 @use 'src/scss/breakpoints';
 
 .landing__logo-container {
-    height: 82px; 
-    width: 206px; 
-    background-image: url('/assets/allagi_logo_with_text.svg'); 
-    background-position: -78px -146px; margin: 0 auto;
+    height: 108px; 
+    width: 282px; 
+    background-image: url('/assets/allagi_logo_with_text.png'); 
+    background-position: -104px -196px; margin: 0 auto;
     display: block;
     margin: 0 auto 40px;
 }
@@ -23,8 +23,20 @@ h2 {
     margin-bottom: 30px;
 }
 
+p {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
 .landing__content-container {
     margin-bottom: 60px;
+    display: block;
+    max-width: 560px;
+    margin: 0 auto;
+    background-color: #DAF0FE;
+    padding:30px;
+    margin-bottom: 70px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .landing__contact-us__container {
